@@ -12,9 +12,9 @@ from gurobipy import Model, GRB, quicksum
 import gurobipy as gb
 # Create an environment with WLS license
 params = {
-"WLSACCESSID": "86a97016-e4e4-4614-9a0c-c845ff16567b",
-"WLSSECRET": "135f418c-de65-4e2f-bbd5-c3dd79fd70f9",
-"LICENSEID": 2503807
+#"WLSACCESSID": YOUR ID
+#"WLSSECRET": YOUR ID
+#"LICENSEID": YOUR ID
 }
 env = gb.Env(params=params)
 
